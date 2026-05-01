@@ -1,4 +1,4 @@
-# spotify-clustering-project
+# Spotify Audio Feature Clustering Analysis
 
 ## Setup
 pip install -r requirements.txt
@@ -7,8 +7,6 @@ pip install -r requirements.txt
 1. Open notebooks/data cleaning.ipynb for data cleaning/database
 2. Open notebooks/clustering.ipynb for clustering model and recommendation
 3. Run all cells from top to bottom
-
-# Audio Feature Clustering Analysis
 
 ## Research Question
 Do clusters formed from audio features correspond to overall moods?

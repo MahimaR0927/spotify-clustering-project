@@ -21,4 +21,4 @@ mood labels associated in songs using only audio features, without any specified
 - Applied K-Means clustering with k=4 chosen via the elbow method/silhouette score
 - Evaluated clusters using silhouette score and stability analysis
 - Visualized clusters with PCA and heatmaps
-- Built a recommendation system using cosine similarity
+- Built a simple recommendation system using cosine similarity to see whether clustering worked.

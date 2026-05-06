@@ -4,21 +4,21 @@
 pip install -r requirements.txt
 
 ## Project Structure
--->Data
-  --> cleaned_songs.csv
-  --> clustered_spotify.csv
-  --> data_moods.csv
+Within data folder:
+  - cleaned_songs.csv
+  - clustered_spotify.csv
+  - data_moods.csv
 
--->notebooks
-  --> clustering.ipynb
-  --> data_cleaning.ipynb
+Within notebooks folder:
+  - clustering.ipynb
+  - data_cleaning.ipynb
 
--->plots
-  --> all generated plots saved here
+Within plots folder:
+  - all generated plots saved here
   
 ## How to run
 1. Open notebooks/data cleaning.ipynb for data cleaning/database
-2. Open notebooks/clustering.ipynb for clustering model and recommendation
+2. Open notebooks/clustering.ipynb for clustering model, plots, and recommendation
 3. Run all cells from top to bottom
 
 ## Research Question
@@ -34,4 +34,4 @@ mood labels associated in songs using only audio features, without any specified
 - Applied K-Means clustering with k=4 chosen via the elbow method/silhouette score
 - Evaluated clusters using silhouette score and stability analysis
 - Visualized clusters with PCA and heatmaps
-- Built a simple recommendation system using cosine similarity to see whether clustering worked.
+- Built a simple recommendation system using cosine similarity to see whether clustering worked, by finding similar songs for a given song input

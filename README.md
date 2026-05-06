@@ -3,6 +3,19 @@
 ## Setup
 pip install -r requirements.txt
 
+## Project Structure
+-->Data
+  --> cleaned_songs.csv
+  --> clustered_spotify.csv
+  --> data_moods.csv
+
+-->notebooks
+  --> clustering.ipynb
+  --> data_cleaning.ipynb
+
+-->plots
+  --> all generated plots saved here
+  
 ## How to run
 1. Open notebooks/data cleaning.ipynb for data cleaning/database
 2. Open notebooks/clustering.ipynb for clustering model and recommendation

@@ -19,6 +19,10 @@
 └── plots/
     └── (generated plots saved here)
 ```
+## Prerequisites 
+   - Download Python 3.x if not already installed.
+   - Install Jupyter (if not already): pip install jupyter
+
 ## How to run
 1. Clone the repository
    - git clone https://github.com/MahimaR0927/spotify-clustering-project.git
@@ -36,7 +40,7 @@
    - Run all cells from top to bottom
    - This will also generate clustered_spotify.csv in the data folder
 
-> Note: You can also open and run the notebook in VS Code with the Jupyter Extension (Microsoft) extension installed.
+> Note: Alternatively, you can also clone this repo, open and run these files in VS Code with the Jupyter Extension (Microsoft) extension installed.
 
 ## Research Question
 Do clusters formed from audio features naturally correspond to overall human-perceived moods?

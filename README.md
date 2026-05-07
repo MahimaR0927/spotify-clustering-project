@@ -2,6 +2,8 @@
 # Project for CS210
 
 ## Project Structure
+```
+your-repo/
 │
 ├── README.md
 ├── requirements.txt
@@ -18,7 +20,7 @@
 │
 └── plots/
     └── (generated plots saved here)
-  
+```
 ## How to run
 1. Clone the repository
    - git clone https://github.com/MahimaR0927/spotify-clustering-project.git

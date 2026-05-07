@@ -32,11 +32,10 @@ spotify-clustering-project/
 └── plots/
     └── (generated plots saved here)
 ```
-## Prerequisites 
-   - Download Python 3.x if not already installed.
-   - Install Jupyter (if not already): pip install jupyter
-
 ## How to run
+Download Python 3.x if not already installed.
+Install Jupyter (if not already): pip install jupyter
+
 1. Clone the repository:
    - git clone https://github.com/MahimaR0927/spotify-clustering-project.git
   

@@ -3,6 +3,7 @@
 
 ## Project Structure
 ```
+spotify-clustering-project/
 │
 ├── README.md
 ├── requirements.txt
@@ -44,7 +45,7 @@
    - Run all cells from top to bottom
    - This will also generate clustered_spotify.csv in the data folder
 
-> Note: Alternatively, you can also clone this repo, open and run these files in VS Code with the Jupyter Extension (Microsoft) extension installed.
+> Note: Alternatively, you can also clone this repo, cd spotify-clustering-project (if not already), open, and run these files in **VS Code** with the Jupyter Extension (Microsoft) extension installed.
 
 ## Research Question
 Do clusters formed from audio features naturally correspond to overall human-perceived moods?

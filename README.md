@@ -27,6 +27,9 @@
 ## How to run
 1. Clone the repository
    - git clone https://github.com/MahimaR0927/spotify-clustering-project.git
+  
+2. Navigate to root of repo
+   - cd spotify-clustering-project
    
 2. Install dependencies
    - pip install -r requirements.txt

@@ -1,5 +1,4 @@
-# A K-Means Clustering Validation Study on Spotify Songs
-# Project for CS210
+# A K-Means Clustering Validation Study on Spotify Songs (CS210 Final Project)
 
 ## Project Structure
 ```

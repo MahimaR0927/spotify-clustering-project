@@ -37,22 +37,25 @@ spotify-clustering-project/
    - Install Jupyter (if not already): pip install jupyter
 
 ## How to run
-1. Clone the repository
+1. Clone the repository:
    - git clone https://github.com/MahimaR0927/spotify-clustering-project.git
   
-2. Navigate to root of repo
+2. Navigate to root of repo:
    - cd spotify-clustering-project
    
-2. Install dependencies
-   - pip install -r requirements.txt
+2. Install dependencies:
+   - Mac: pip3 install -r requirements.txt
+   - Windows: pip install -r requirements.txt
    
-4. Run the data cleaning notebook first
-   - jupyter notebook notebooks/data_cleaning.ipynb
+4. Run the data cleaning notebook first:
+   - Mac/Linux:  python3 -m jupyter notebook notebooks/data_cleaning.ipynb
+   - Windows:    python -m jupyter notebook notebooks/data_cleaning.ipynb
    - Run all cells from top to bottom
    - This generates cleaned_songs.csv in the data folder
   
-5. Then run the clustering notebook
-   - jupyter notebook notebooks/clustering.ipynb
+5. Then run the clustering notebook:
+   - Mac/Linux:  python3 -m jupyter notebook notebooks/clustering.ipynb
+   - Windows:    python -m jupyter notebook notebooks/clustering.ipynb   
    - Run all cells from top to bottom
    - This will also generate clustered_spotify.csv in the data folder
 

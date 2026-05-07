@@ -47,12 +47,8 @@ spotify-clustering-project/
 
 **Note: Alternatively, you can also clone this repo, cd spotify-clustering-project, open, and run these files (using the same order of steps for running notebooks) in VS Code with the Jupyter Extension (Microsoft) extension installed.**
 
-## Research Question
-Do clusters formed from audio features naturally correspond to overall human-perceived moods?
-
-## Purpose
-This project investigates whether unsupervised machine learning (K-means clustering) can discover 
-mood labels associated in songs using only audio features, without any specified mood labels as input.
+## Purpose and Goal
+This project investigates whether unsupervised machine learning (K-means clustering) can discover mood labels associated in songs using only audio features, without any specified mood labels as input. And through this project I attempt to answer: *Do clusters formed from audio features naturally correspond to overall human-perceived moods?*
 
 ## What I Did
 - Cleaned and stored song data in a SQLite database

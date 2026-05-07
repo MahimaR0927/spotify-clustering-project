@@ -1,6 +1,17 @@
 # A K-Means Clustering Validation Study on Spotify Songs
 *CS210 Final Project*
 
+## Purpose and Goal
+This project investigates whether unsupervised machine learning (K-means clustering) can discover mood labels associated in songs using only audio features, without any specified mood labels as input. And through this project I attempt to answer: *Do clusters formed from audio features naturally correspond to overall human-perceived moods?*
+
+## What I Did
+- Cleaned and stored song data in a SQLite database
+- Selected and normalized audio features (e.g. tempo, energy, valence, etc)
+- Applied K-Means clustering with k=4 chosen via the elbow method/silhouette score
+- Evaluated clusters using silhouette score and stability analysis
+- Visualized clusters with PCA and heatmaps
+- Built a simple recommendation system using cosine similarity to see whether clustering worked, by finding similar songs for a given song input
+
 ## Project Structure
 ```
 spotify-clustering-project/
@@ -46,14 +57,3 @@ spotify-clustering-project/
    - This will also generate clustered_spotify.csv in the data folder
 
 **Note: Alternatively, you can also clone this repo, cd spotify-clustering-project, open, and run these files (using the same order of steps for running notebooks) in VS Code with the Jupyter Extension (Microsoft) extension installed.**
-
-## Purpose and Goal
-This project investigates whether unsupervised machine learning (K-means clustering) can discover mood labels associated in songs using only audio features, without any specified mood labels as input. And through this project I attempt to answer: *Do clusters formed from audio features naturally correspond to overall human-perceived moods?*
-
-## What I Did
-- Cleaned and stored song data in a SQLite database
-- Selected and normalized audio features (e.g. tempo, energy, valence, etc)
-- Applied K-Means clustering with k=4 chosen via the elbow method/silhouette score
-- Evaluated clusters using silhouette score and stability analysis
-- Visualized clusters with PCA and heatmaps
-- Built a simple recommendation system using cosine similarity to see whether clustering worked, by finding similar songs for a given song input
